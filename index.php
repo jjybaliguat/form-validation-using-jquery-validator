@@ -27,7 +27,7 @@
                         <input type="password" name="pass" placeholder="Password">
                     </div>
                     <div class="input-group">
-                        <button name="login" type="submit">Log In</button>
+                        <button name="login" type="submit">Log IN</button>
                     </div>
                     <div class="forgot-pass">
                         <a href="#">Forgot password?</a>
