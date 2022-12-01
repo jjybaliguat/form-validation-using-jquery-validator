@@ -40,3 +40,21 @@ $(function(){
 });
 
 });
+
+//code for hiding or showing password input
+
+const passInput = document.querySelector('#input-pass');
+const eyeOpen = document.querySelector('.fa-eye');
+const eyeClosed = document.querySelector('.fa-eye-slash');
+
+eyeClosed.addEventListener('click', function() {
+    this.classList.add('hide');
+    eyeOpen.classList.add('show');
+    passInput['type'] = "text";
+});
+
+eyeOpen.addEventListener('click', function() {
+    this.classList.remove('show');
+    eyeClosed.classList.remove('hide');
+    passInput['type'] = "password";
+})

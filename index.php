@@ -7,6 +7,7 @@
     <title>Facebook - log in or sign up</title>
     <link rel="icon" type="image/x-icon" href="img/fbicon.png">
     <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/2e740f7b92.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -23,8 +24,10 @@
                     <div class="input-group">
                         <input  type="text" name="user" placeholder="Email or phone number">
                     </div>
-                    <div class="input-group">
-                        <input type="password" name="pass" placeholder="Password">
+                    <div class="input-group pass">
+                        <input id="input-pass" type="password" name="pass" placeholder="Password">
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-eye-slash"></i>
                     </div>
                     <div class="input-group">
                         <button name="login" type="submit">Log In</button>
